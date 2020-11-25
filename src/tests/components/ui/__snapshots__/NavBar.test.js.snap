@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas <NavBar /> debe de mostrarse correctamente 1`] = `
+<nav
+  className="navbar navbar-expand-md navbar-dark bg-dark"
+>
+  <a
+    className="navbar-brand"
+    onClick={[Function]}
+  >
+    Asociaciones
+  </a>
+  <button
+    aria-controls="basic-navbar-nav"
+    aria-label="Toggle navigation"
+    className="navbar-toggler collapsed"
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="navbar-toggler-icon"
+    />
+  </button>
+  <div
+    aria-expanded={null}
+    className="navbar-collapse collapse"
+    id="basic-navbar-nav"
+  >
+    <div
+      className="mr-auto navbar-nav"
+      onKeyDown={[Function]}
+    >
+      <a
+        aria-current={null}
+        className="nav-link"
+        data-rb-event-key={null}
+        disabled={false}
+        onClick={[Function]}
+      >
+        Marvel
+      </a>
+      <a
+        aria-current={null}
+        className="nav-link"
+        data-rb-event-key={null}
+        disabled={false}
+        onClick={[Function]}
+      >
+        DC
+      </a>
+      <a
+        aria-current={null}
+        className="nav-link"
+        data-rb-event-key={null}
+        disabled={false}
+        onClick={[Function]}
+      >
+        Buscar
+      </a>
+    </div>
+    <div
+      className="justify-content-end navbar-nav"
+      onKeyDown={[Function]}
+    >
+      <a
+        className="text-info nav-link"
+        data-rb-event-key={null}
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        Alejandro
+      </a>
+      <a
+        className="nav-link"
+        data-rb-event-key={null}
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        Logout
+      </a>
+    </div>
+  </div>
+</nav>
+`;

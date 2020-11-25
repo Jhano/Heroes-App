@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchScreen/> debe de mostrar un error si no se encuentra el hero 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "marginTop": "20px",
+    }
+  }
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-4 col-md-4"
+    >
+      <h1
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Search Form
+      </h1>
+      <hr
+        style={
+          Object {
+            "background": "white",
+          }
+        }
+      />
+      <form
+        className=""
+        onSubmit={[Function]}
+        style={
+          Object {
+            "justifyContent": "center",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-12 col-md-12"
+          >
+            <input
+              className="form-control"
+              name="searchText"
+              onChange={[Function]}
+              placeholder="Search"
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+              type="text"
+              value="batman123123"
+            />
+          </div>
+          <div
+            className="col-lg-12 col-md-12"
+          >
+            <button
+              className="btn btn-success btn-block"
+              disabled={false}
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-lg-8 col-md-8"
+    >
+      <h1
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Result
+      </h1>
+      <hr
+        style={
+          Object {
+            "background": "white",
+          }
+        }
+      />
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="fade animate__animated animate__fadeIn alert alert-danger show"
+            role="alert"
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            There is no a hero with 
+            batman123123
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <SearchScreen/> debe de mostrarse a batman y el input con el valor del queryString 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "marginTop": "20px",
+    }
+  }
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-4 col-md-4"
+    >
+      <h1
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Search Form
+      </h1>
+      <hr
+        style={
+          Object {
+            "background": "white",
+          }
+        }
+      />
+      <form
+        className=""
+        onSubmit={[Function]}
+        style={
+          Object {
+            "justifyContent": "center",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-12 col-md-12"
+          >
+            <input
+              className="form-control"
+              name="searchText"
+              onChange={[Function]}
+              placeholder="Search"
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+              type="text"
+              value="batman"
+            />
+          </div>
+          <div
+            className="col-lg-12 col-md-12"
+          >
+            <button
+              className="btn btn-success btn-block"
+              disabled={false}
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-lg-8 col-md-8"
+    >
+      <h1
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Result
+      </h1>
+      <hr
+        style={
+          Object {
+            "background": "white",
+          }
+        }
+      />
+      <div
+        className="row"
+      >
+        <div
+          className="animate__animated animate__fadeIn col-md-4"
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <div
+            className="card"
+          >
+            <img
+              className="card-img-top"
+              src="./assets/heroes/dc-batman.jpg"
+              style={
+                Object {
+                  "height": "16rem",
+                }
+              }
+            />
+            <div
+              className="card-body"
+            >
+              <div
+                className="card-title h5"
+              >
+                Batman
+              </div>
+              <hr />
+              <p
+                className="card-text"
+              >
+                Bruce Wayne
+              </p>
+              <div
+                className="card-subtitle h6"
+              >
+                 
+                Detective Comics #27
+                 
+              </div>
+            </div>
+            <div
+              className="card-footer"
+            >
+              <a
+                href="/hero/dc-batman"
+                onClick={[Function]}
+              >
+                <button
+                  className="btn btn-info btn-block btn-lg"
+                  disabled={false}
+                  style={
+                    Object {
+                      "borderRadius": "2rem",
+                    }
+                  }
+                  type="button"
+                >
+                   Más..
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <SearchScreen/> debe de mostrarse correctamente con valores por defecto 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "marginTop": "20px",
+    }
+  }
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-4 col-md-4"
+    >
+      <h1
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Search Form
+      </h1>
+      <hr
+        style={
+          Object {
+            "background": "white",
+          }
+        }
+      />
+      <form
+        className=""
+        onSubmit={[Function]}
+        style={
+          Object {
+            "justifyContent": "center",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-12 col-md-12"
+          >
+            <input
+              className="form-control"
+              name="searchText"
+              onChange={[Function]}
+              placeholder="Search"
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="col-lg-12 col-md-12"
+          >
+            <button
+              className="btn btn-success btn-block"
+              disabled={false}
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-lg-8 col-md-8"
+    >
+      <h1
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Result
+      </h1>
+      <hr
+        style={
+          Object {
+            "background": "white",
+          }
+        }
+      />
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="fade animate__animated animate__fadeIn alert alert-info show"
+            role="alert"
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            Search a hero
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

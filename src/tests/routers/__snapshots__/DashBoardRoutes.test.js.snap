@@ -1,0 +1,693 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <DashBoardRoutes /> El componente se muestra correctamente 1`] = `
+Array [
+  <div
+    className="col-lg-12"
+  >
+    <nav
+      className="navbar navbar-expand-md navbar-dark bg-dark"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        Asociaciones
+      </a>
+      <button
+        aria-controls="basic-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="basic-navbar-nav"
+      >
+        <div
+          className="mr-auto navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            aria-current="page"
+            className="nav-link active"
+            data-rb-event-key={null}
+            disabled={false}
+            href="/marvel"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Marvel
+          </a>
+          <a
+            aria-current={null}
+            className="nav-link"
+            data-rb-event-key={null}
+            disabled={false}
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            aria-current={null}
+            className="nav-link"
+            data-rb-event-key={null}
+            disabled={false}
+            href="/search"
+            onClick={[Function]}
+          >
+            Buscar
+          </a>
+        </div>
+        <div
+          className="justify-content-end navbar-nav"
+          onKeyDown={[Function]}
+        >
+          <a
+            className="text-info nav-link"
+            data-rb-event-key={null}
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+          >
+            Alejandro
+          </a>
+          <a
+            className="nav-link"
+            data-rb-event-key={null}
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+          >
+            Logout
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>,
+  <div
+    className="fondo col-lg-12"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+        style={
+          Object {
+            "justifyContent": "center",
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "color": "whitesmoke",
+            }
+          }
+        >
+          MarvelScreen
+        </h1>
+        <div
+          className="container"
+        >
+          <div
+            className="animate__animated animate__fadeIn card-columns"
+          >
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-spider.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Spider Man
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  Peter Parker
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  Amazing Fantasy #15
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-spider"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-captain.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Captain America
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  Steve Rogers
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  Captain America Comics #1
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-captain"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-iron.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Iron Man
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  Tony Stark
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  Tales of Suspense #39
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-iron"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-thor.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Thor
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  Thor Odinson
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  Journey into Myster #83
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-thor"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-hulk.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Hulk
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  Bruce Banner
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  The Incredible Hulk #1
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-hulk"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-wolverine.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Wolverine
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  James Howlett
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  The Incredible Hulk #180
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-wolverine"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-daredevil.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Daredevil
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  Matthew Michael Murdock
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  Daredevil #1
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-daredevil"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-hawkeye.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Hawkeye
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  Clinton Francis Barton
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  Tales of Suspense #57
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-hawkeye"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-cyclops.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Cyclops
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  Scott Summers
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  X-Men #1
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-cyclops"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              className="card"
+            >
+              <img
+                className="card-img-top"
+                src="./assets/heroes/marvel-silver.jpg"
+                style={
+                  Object {
+                    "height": "16rem",
+                  }
+                }
+              />
+              <div
+                className="card-body"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Silver Surfer
+                </div>
+                <hr />
+                <p
+                  className="card-text"
+                >
+                  Norrin Radd
+                </p>
+                <div
+                  className="card-subtitle h6"
+                >
+                   
+                  The Fantastic Four #48
+                   
+                </div>
+              </div>
+              <div
+                className="card-footer"
+              >
+                <a
+                  href="/hero/marvel-silver"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-info btn-block btn-lg"
+                    disabled={false}
+                    style={
+                      Object {
+                        "borderRadius": "2rem",
+                      }
+                    }
+                    type="button"
+                  >
+                     Más..
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
